@@ -1,7 +1,18 @@
 body {
-    background-color: antiquewhite;
+    background-color: rgb(209, 134, 34);
+    text-align: center;
 }
 
 .blok {
     display: flex;
+    text-align: center;
+}
+p{
+    color:green;
+    font-size:23px;
+}
+
+center-bottom {
+    align-self: center;
+    margin-bottom: 20px; /* Podesi po potrebi */
 }
