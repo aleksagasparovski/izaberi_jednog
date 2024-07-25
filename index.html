@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Izaberi jednog</title>
-    <link href="index.css" rel="stylesheet" type="text/css"/>
+    <title>Izaberi Jednog</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <p>Unesite ime i prezime</p>
-    <div class="blok">
-        <p>1</p>
-        <input type="text"/>
+    <div class="kontejner">
+        <h1 class="naslov">Izaberi jednog</h1>
+        <label for="ime" class="oznaka">Unesite ime i prezime</label>
+        <input type="text" id="ime" class="unos" placeholder="Ime i prezime">
+        <button class="dugme-dodaj">Dodaj</button>
+        <button class="dugme-izaberi">Izaberi jednog</button>
     </div>
-    <button>Dodaj</button>
-    <button class="center-bottom">izaberi jednog</button>
-
 </body>
 </html>

@@ -1,18 +1,80 @@
+/* stilovi.css */
 body {
-    background-color: rgb(209, 134, 34);
-    text-align: center;
-}
-
-.blok {
+    font-family: Arial, sans-serif;
+    background-color: #ececec;
+    margin: 0;
+    padding: 0;
     display: flex;
-    text-align: center;
-}
-p{
-    color:green;
-    font-size:23px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-center-bottom {
-    align-self: center;
-    margin-bottom: 20px; /* Podesi po potrebi */
+.kontejner {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.naslov {
+    color: #222222;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.oznaka {
+    color: #555555;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.unos {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.dugme-dodaj, .dugme-izaberi {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dugme-dodaj:hover, .dugme-izaberi:hover {
+    background-color: #0056b3;
+}
+
+.dugme-izaberi {
+    margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+    .kontejner {
+        padding: 1rem;
+    }
+
+    .naslov {
+        font-size: 1.5rem;
+    }
+
+    .oznaka, .unos, .dugme-dodaj, .dugme-izaberi {
+        font-size: 0.875rem;
+    }
+
+    .dugme-izaberi {
+        margin-top: 1.5rem;
+    }
 }
