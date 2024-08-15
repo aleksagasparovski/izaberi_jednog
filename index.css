@@ -43,8 +43,8 @@ body {
 }
 
 .dugme-dodaj, .dugme-izaberi {
-    background-color: #007bff;
-    color: #ffffff;
+    background-color:orange;
+    color:black;
     border: none;
     padding: 0.75rem 1.5rem;
     border-radius: 5px;
@@ -54,7 +54,8 @@ body {
 }
 
 .dugme-dodaj:hover, .dugme-izaberi:hover {
-    background-color: #0056b3;
+    background-color:Black;
+    color:orange;
 }
 
 .dugme-izaberi {
